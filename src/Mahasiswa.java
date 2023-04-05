@@ -28,7 +28,7 @@ public class Mahasiswa {
             System.out.println("3. Ubah data mahasiswa");
             System.out.print("Masukkan pilihan: ");
             int pilihan = in.nextInt();
-            in.nextLine(); // membersihkan newline character dari buffer
+            in.nextLine();
 
             switch (pilihan) {
                 case 1:
